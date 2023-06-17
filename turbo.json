@@ -9,6 +9,15 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "dev:test": {
+      "cache": false
+    },
+    "e2e:test": {
+      "dependsOn": ["^build"]
+    },
+    "e2e:report": {
+      "cache": false
     }
   }
 }
